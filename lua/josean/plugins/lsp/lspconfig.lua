@@ -76,6 +76,13 @@ lspconfig["cssls"].setup({
   on_attach = on_attach,
 })
 
+-- configure clangd server
+lspconfig["clangd"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  filetypes = { "cpp", "hpp", "cc", "h" },
+})
+
 -- configure tailwindcss server
 lspconfig["tailwindcss"].setup({
   capabilities = capabilities,
