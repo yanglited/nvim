@@ -7,6 +7,10 @@ local keymap = vim.keymap -- for conciseness
 -- General Keymaps
 ---------------------
 
+-- center the cursor to middle of screen when scrolling up and down:
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
 
