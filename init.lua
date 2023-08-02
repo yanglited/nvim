@@ -29,7 +29,7 @@ require("josean.plugins.lsp.mason")
 require("josean.plugins.lsp.lspsaga")
 require("josean.plugins.lsp.lspconfig")
 require("josean.plugins.lsp.null-ls")
-require("josean.plugins.autopairs")
+--require("josean.plugins.autopairs")
 require("josean.plugins.treesitter")
 require("josean.plugins.gitsigns")
 
